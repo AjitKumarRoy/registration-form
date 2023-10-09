@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Form for applying the internship in Tata Consultancy Services</h1>
+    <div>
+        <div>
+            <p>Name : </p> 
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Middle Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+        <div>
+            <p>E-mail : </p>
+            <input type="text" placeholder="ajitroy743@gmail.com">
+            <span>
+                <span>Date Of Birth</span>
+                <input type="date" min="1960-01-01" max="2005-12-31">
+            </span>
+        </div>
+        <div>
+            <p>Address : </p>
+            <div>
+                <input type="text" placeholder="Street Address">
+                <input type="text" placeholder="Street Address Line 2">
+            </div>
+            <br>
+            <div>
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="District">
+            </div>
+            <br>
+            <div>
+                <input type="number" placeholder="Pincode">
+                <select name="state" id="state">
+                    <option value="no-state">Select Your State</option>
+                    <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                    <option vlaue="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chattisgarh">Chattisgarh</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="jammu-&-kashmir">Jammu & Kashmir</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="madhya-pradesh">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="mizoram">Mizoram</option>
+                    <option value="nagaland">Nagaland</option>
+                    <option value="orissa">Orissa</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="tamil-nadu">Tamil Nadu</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <P>Institute Name : </P>
+            <input type="text">
+        </div>
+        <div>
+            <p>Contact : </p>
+            <input type="number">
+        </div>
+        <div>
+            <p>Area of Interest : </p>
+            <label for="interest1"> <input type="checkbox" id="interest1"> Administration </label>
+            <label for="interest2"> <input type="checkbox" id="interest2"> English </label>
+            <label for="interest3"> <input type="checkbox" id="interest3"> Events Planning </label>
+            <br>
+            <label for="interest4"> <input type="checkbox" id="interest4"> Editing/Publication </label>
+            <label for="interest5"> <input type="checkbox" id="interest5"> Marketing </label>
+            <lavel for="interest6"> <input type="checkbox" id="interest6"> Social Media</lavel>
+            <br>
+            <label for="interest7"> <input type="checkbox" id="interest7"> Graphic Design</label>
+        </div>
+        <br>
+        <div>
+            <textarea rows="10" cols="50">Why you want to join?</textarea>
+        </div>
+        <div>
+            <label for="terms-and-condition"> <input type="checkbox" id="terms-and-condition"> Accept Terms and Conditons </label>
+        </div>
+
+        <br><br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
